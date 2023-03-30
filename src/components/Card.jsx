@@ -1,15 +1,12 @@
 import React from "react";
+import Avatar from "./Avatar";
 
 function Card(prop){
     return (
         <div className="card">
         <div className="top">
         <h2 className="name">{prop.name}</h2>
-        <img
-        src={prop.img}
-        alt="avatar_img"
-        className="circle-img"
-        />
+        <Avatar img = {prop.img}/>
         </div>
         <div className="bottom">
         <p className="info">{prop.tel}</p>

@@ -15,6 +15,6 @@ function Card(prop){
         </div>
         );
     };
-
+    
     export default Card;
     

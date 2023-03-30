@@ -18,3 +18,4 @@ function Card(prop){
     };
     
     export default Card;
+    

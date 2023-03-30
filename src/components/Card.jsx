@@ -9,6 +9,7 @@ function Card(prop){
         <Avatar img = {prop.img}/>
         </div>
         <div className="bottom">
+        <p className="info">{prop.id}</p>
         <p className="info">{prop.tel}</p>
         <p className="info">{prop.email}</p>
         </div>
@@ -17,4 +18,4 @@ function Card(prop){
     };
     
     export default Card;
-    
+    ``
